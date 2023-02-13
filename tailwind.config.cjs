@@ -14,7 +14,7 @@ module.exports = {
         gray: "#4B4B4C",
       },
       animation: {
-        slide: "slide 25s linear infinite",
+        slide: "slide 60s linear infinite",
       },
       keyframes: {
         slide: {
