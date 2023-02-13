@@ -1,7 +1,7 @@
-import { FiPenTool } from "react-icons/fi";
-import { FaLaptopCode } from "react-icons/fa";
-import { BsBarChartLine } from "react-icons/bs";
-import { MdOutlineScience } from "react-icons/md";
+import { CiCoffeeBean } from "react-icons/ci";
+import { MdOutlineCoffeeMaker } from "react-icons/md";
+import { GiCoffeeMug } from "react-icons/gi";
+import { SiBuymeacoffee } from "react-icons/si";
 
 import courses1 from "./assets/courses1.jpg";
 import courses2 from "./assets/courses2.jpg";
@@ -50,23 +50,23 @@ export const navLinks = [
 export const categories = [
   {
     id: 1,
-    // icon: <FiPenTool />,
-    category: "Design",
+    icon: <CiCoffeeBean />,
+    category: "Coffee Beans",
   },
   {
     id: 2,
-    // icon: <FaLaptopCode />,
-    category: "Development",
+    icon: <MdOutlineCoffeeMaker />,
+    category: "Coffee Utensils",
   },
   {
     id: 3,
-    // icon: <BsBarChartLine />,
-    category: "Business",
+    icon: <GiCoffeeMug />,
+    category: "Original Goods",
   },
   {
     id: 4,
-    // icon: <MdOutlineScience />,
-    category: "Science",
+    icon: <SiBuymeacoffee />,
+    category: "Other",
   },
 ];
 

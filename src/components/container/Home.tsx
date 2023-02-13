@@ -34,27 +34,16 @@ const Home = () => {
         <div>
           <div className="font-bold text-xs text-Teal mb-4">
             {" "}
-            your e-learning partner
+            スペシャルティ・コーヒー豆専門店
           </div>
           <div className="sm:text-[2.5rem] text-[1.825rem] font-bold">
-            This is
-            <br /> the new way <br />
-            to learn online
+            3 CEDARS COFFEE
           </div>
         </div>
-        <p className="text-sm leadin-7 text-gray max-w-sm">
-          Lorem, ipsum dolor sit amet consectetur adipising elit. Vero officia
-          sit vitae quo, eum similique?
+        <p className="text-xs leadin-7 text-gray max-w-sm">
+          スペシャルティ・コーヒー豆専門店
         </p>
-        <div className="mt-6">
-          <button className="px-6 py-3 font-bold text-white bg-Teal rounded-lg mr-4 text-sm">
-            Get Started
-          </button>
-          <button className="px-6 py-3 font-bold border border-solid border-gray rounded-lg text-sm">
-            Discover
-          </button>
-        </div>
-        <div className="md:w-[60%] my-3">
+        <div className="md:w-[60%] my-14">
           <img src={TopImage} alt="" />
         </div>
       </div>

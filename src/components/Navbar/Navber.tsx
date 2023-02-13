@@ -4,6 +4,7 @@ import NavLink from "./NavLink";
 import { useEffect, useState } from "react";
 import MobileNavLinks from "./MobileNavLinks";
 import { motion } from "framer-motion";
+import mainLogo from "../../assets/logo1.png";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -38,17 +39,14 @@ const Navbar = () => {
               className="text-3xl sm:hidden cursor-pointer"
               onClick={() => setToggle(true)}
             />
-            <div className="text-xl text-Teal uppercase tracking-wide font-bold">
-              Slillex
+            <div className="w-36 tracking-wide">
+              <img src={mainLogo} alt="" className="w-full" />
             </div>
             <div className="sm:flex items-center hidden">
               {navLinks.map((navLink) => (
                 <NavLink key={navLink.id} {...navLink} />
               ))}
             </div>
-            <button className="py-3 px-6 font-bold text-sm border border-solid rounded-lg border-gray">
-              Sign Up
-            </button>
             {toggle && (
               <motion.div
                 initial={{ x: -500, opacity: 0 }}
