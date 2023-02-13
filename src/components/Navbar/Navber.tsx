@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <div
       className={`${
-        active ? "shadow-lg bg-Solitude" : ""
+        active ? "shadow-lg  bg-amber-50" : ""
       } fixed w-full top-0 left-0 z-20`}
     >
       <div>

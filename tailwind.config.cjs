@@ -7,7 +7,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        Teal: "#7c2d12",
+        Teal: "#713f12",
         HummingBird: "#d1f1ee",
         yellow: "#e4d63b",
         Solitude: "#e9e9ea",
